@@ -1,0 +1,19 @@
+{
+  "name": "ipsc-controller",
+  "version": "1.0.0",
+  "description": "IPSC Shooting Training Controller",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p www && cp index.html www/index.html && cp -r assets www/assets 2>/dev/null || true",
+    "capacitor:build": "npm run build && npx cap sync",
+    "android:build": "npm run capacitor:build && npx cap run android"
+  },
+  "keywords": ["IPSC", "shooting", "training", "BLE"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/cli": "^6.0.0"
+  }
+}

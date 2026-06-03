@@ -1,0 +1,14 @@
+{
+  "appId": "com.example.ipsc",
+  "appName": "IPSC Training",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "Bluetooth": {
+      "enabled": true
+    }
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
