@@ -1,0 +1,3 @@
+-keep class org.apache.cordova.** { *; }
+-keep class com.example.ipsc.** { *; }
+-dontwarn org.apache.cordova.**
